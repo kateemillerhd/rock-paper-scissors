@@ -56,9 +56,7 @@ const playGame = function () {
         console.log(`Current Score -> Player: ${playerScore}, Computer: ${computerScore}`);
     };
 
-    for (let i = 1; i <= 5; i++) {
-        playRound();
-    }
+  
 
     console.log(`\nFinal Score -> Player: ${playerScore}, Computer: ${computerScore}`);
     if (playerScore > computerScore) {
